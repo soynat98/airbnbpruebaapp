@@ -74,14 +74,14 @@ distr
 st.info("Rango de precios ")
 values = st.sidebar.slider("Rango de precios", float(dato.price.min()), 3000.0,
                            (200.0, 500.0))
-import plotly.express as px
-f = px.histogram(dato[(dato.price > int(values[0])) & (dato.price < int(values[1]))],
-                 x="price",
-                 nbins=15,
-                 title="Distribucion de precios")
-f.update_xaxes(title="Precio")
-f.update_yaxes(title="Cantidad de Neighbourhood")
-st.plotly_chart(f)
+#import plotly.express as px
+#f = px.histogram(dato[(dato.price > int(values[0])) & (dato.price < int(values[1]))],
+ #                x="price",
+  #               nbins=15,
+   #              title="Distribucion de precios")
+#f.update_xaxes(title="Precio")
+#f.update_yaxes(title="Cantidad de Neighbourhood")
+#st.plotly_chart(f)
 
 
 ##6##
