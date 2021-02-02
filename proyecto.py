@@ -7,7 +7,7 @@ Created on Sun Jan 31 20:01:26 2021
 
 import streamlit as st
 import pandas as pd
-#import matplotlib.pyplot as plot
+
 #import seaborn as sns
 import numpy as np
 #import plotly.express as px
@@ -60,6 +60,7 @@ tipal=dato.room_type.value_counts().head()
 tipal
 
 ##2. ##
+import matplotlib.pyplot as plot
 st.info("¿Cuales son los neighbourhood con más alojamientos?")
 masal=dato.neighbourhood.value_counts().head()
 masal 
