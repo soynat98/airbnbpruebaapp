@@ -10,7 +10,7 @@ import pandas as pd
 #import matplotlib.pyplot as plot
 #import seaborn as sns
 import numpy as np
-import plotly.express as px
+#import plotly.express as px
 
 from PIL import Image
 image = Image.open('im.png')
