@@ -10,7 +10,6 @@ import pandas as pd
 
 #import seaborn as sns
 import numpy as np
-#import plotly.express as px
 
 from PIL import Image
 image = Image.open('im.png')
@@ -75,7 +74,7 @@ distr
 st.info("Rango de precios ")
 values = st.sidebar.slider("Rango de precios", float(dato.price.min()), 3000.0,
                            (200.0, 500.0))
-
+import plotly.express as px
 f = px.histogram(dato[(dato.price > int(values[0])) & (dato.price < int(values[1]))],
                  x="price",
                  nbins=15,
