@@ -60,11 +60,11 @@ tipal=dato.room_type.value_counts().head()
 tipal
 
 ##2. ##
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 st.info("¿Cuales son los neighbourhood con más alojamientos?")
 masal=dato.neighbourhood.value_counts().head()
 masal 
-dato.neighbourhood.value_counts(normalize=True).plot.barh()
+#dato.neighbourhood.value_counts(normalize=True).plot.barh()
 
 ##5##
 st.info("Mostrar la distribución de los precios de los alojamientos")
