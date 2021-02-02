@@ -60,7 +60,7 @@ tipal=dato.room_type.value_counts().head()
 tipal
 
 ##2. ##
-import matplotlib.pyplot as plot
+import matplotlib.pyplot as plt
 st.info("¿Cuales son los neighbourhood con más alojamientos?")
 masal=dato.neighbourhood.value_counts().head()
 masal 
